@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Email Verification</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h2>Email Verification System</h2>
+
+    <!-- EMAIL INPUT -->
+    <input type="email" id="email" placeholder="Enter email">
+
+
+    <button id="sendCodeBtn" onclick="sendCode()">Send Code</button>
+    <div id="timer" class="timer"></div>
+
+    <hr>
+
+    <!-- CODE INPUT -->
+    <input type="text" id="code" placeholder="Enter verification code">
+
+    <button onclick="verifyCode()">Verify Code</button>
+
+    <p id="message"></p>
+
+  </div>
+
+</div>
+
+  <footer class="footer">
+    <p>All rights reserved &copy;</p>
+    <p>2026</p>
+    <p>Developed by Sylvance Alex</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
