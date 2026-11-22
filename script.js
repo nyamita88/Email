@@ -1,5 +1,5 @@
 
-const API = "http://localhost:3000";
+const API = "https://email-08.onrender.com";//Replace with your server URL
 let timerInterval = null;
 let timerSeconds = 0;
 
